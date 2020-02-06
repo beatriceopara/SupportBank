@@ -1,3 +1,30 @@
+Program
+Creates an account for each person, and then creates transactions between the accounts. 
+The person in the 'From' column is paying money, 
+So the amount needs to be deducted from their account. 
+The person in the 'To' column is being paid, so the amount needs to be added to their account.
+
+https://codereview.stackexchange.com/questions/195513/bank-accounts-with-methods-to-transfer-funds
+
+Readfile - Class
+Bank - Class
+Bank has a Name
+Bank has many Accounts
+
+Transactions - Class
+Are stored on the accounts 
+
+Accounts - Class
+Individual accounts are stored on the accounts - List of individual colleague account
+
+Individual Accounts - Class
+Display - Class
+
+
+
+
+
+
 Classes & Functions
 Readfile (function only)
 	Readfile (currently xls later this will include json and xml)
@@ -13,7 +40,7 @@ Transactions
 	Go through each item in rawData to create a list item
 	List item: int amount, string narrative, string from, string to
     returns list  
-Bank Manager  - number crunching              
+Bank - number crunching              
 	Who owes who
 	Add or minus
 	Class fields: colleague from (a), colleague to (b), amount to credit or debit (should this class inherit from accounts or access name  fields in account class?)

@@ -9,17 +9,10 @@ namespace Supportbank
 {
     public class Readfile
     {
-        public static List<IndividualTransactions> ReadDataFile()
+        public static List<Transaction> ReadDataFile()
         {
-            // string myString = "hello";
-            //
-            // string: The type of variable we are creating.
-            // myString: The name of the variable we are creating.
-            // "hello": The value our variable has right now.
-            
-            
             var allLines = File.ReadAllLines("Transactions.csv").Skip(1);
-            List<IndividualTransactions> myTransactionList = new List<IndividualTransactions>();
+            List<Transaction> myTransactionList = new List<Transaction>();
             
             foreach (var line in allLines)
             {
@@ -31,10 +24,10 @@ namespace Supportbank
             return myTransactionList;
         }
 
-        private static IndividualTransactions CreateTransaction(string lineOfTheCsvFile)
+        private static Transaction CreateTransaction(string lineOfTheCsvFile)
         {
             var elementsOfLine = lineOfTheCsvFile.Split(",");
-            IndividualTransactions myTransaction = new IndividualTransactions();
+            Transaction myTransaction = new Transaction();
 
             myTransaction.Date = elementsOfLine[0];
             myTransaction.From = elementsOfLine[1];
@@ -45,12 +38,5 @@ namespace Supportbank
         }
     }
 
-    public class IndividualTransactions
-    {
-       public string Date { get; set; }
-       public string From { get; set; }
-       public string To { get; set; }
-       public string Narrative { get; set; }
-       public decimal Amount { get; set; }
-    }
+    
 }

@@ -3,6 +3,8 @@
   <component name="ContentModelStore">
     <e p="C:\training\Supportbank\Supportbank" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
+      <e p="Account.cs" t="Include" />
+      <e p="Bank.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="class_structure.txt" t="Include" />
       <e p="obj" t="ExcludeRecursive">
@@ -18,6 +20,7 @@
       <e p="README.md" t="Include" />
       <e p="Supportbank.csproj" t="IncludeRecursive" />
       <e p="Supportbank.sln" t="IncludeFlat" />
+      <e p="Transaction.cs" t="Include" />
       <e p="Transactions.csv" t="Include" />
     </e>
     <e p="C:\Users\BeaOpa\.Rider2019.3\system\extResources" t="IncludeRecursive" />
