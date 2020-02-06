@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\KanDil\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\KanDil\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Supportbank.1641527882.00" t="ExcludeRecursive" />
-    <e p="C:\Users\KanDil\Documents\training\Supportbank" t="IncludeRecursive">
+    <e p="C:\training\Supportbank\Supportbank" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="class_structure.txt" t="Include" />
@@ -22,5 +20,7 @@
       <e p="Supportbank.sln" t="IncludeFlat" />
       <e p="Transactions.csv" t="Include" />
     </e>
+    <e p="C:\Users\BeaOpa\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\BeaOpa\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Supportbank.375169856.00" t="ExcludeRecursive" />
   </component>
 </project>
