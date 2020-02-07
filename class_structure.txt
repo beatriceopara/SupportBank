@@ -6,6 +6,8 @@ The person in the 'To' column is being paid, so the amount needs to be added to 
 
 https://codereview.stackexchange.com/questions/195513/bank-accounts-with-methods-to-transfer-funds
 
+https://www.uml.org/what-is-uml.htm
+
 Readfile - Class
 Bank - Class
 Bank has a Name
